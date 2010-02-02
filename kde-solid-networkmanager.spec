@@ -37,6 +37,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%{_datadir}/kde4/services/solidbackends/solid_networkmanager07.desktop
-%{_iconsdir}/oxygen/*/apps/networkmanager.png
-%{_libdir}/kde4/solid_networkmanager07.so
+%{_kde_datadir}/kde4/services/solidbackends/solid_networkmanager07.desktop
+%{_kde_iconsdir}/oxygen/*/apps/networkmanager.png
+%{_kde_libdir}/kde4/solid_networkmanager07.so
