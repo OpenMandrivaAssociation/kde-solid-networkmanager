@@ -1,4 +1,4 @@
-%define snapshot r1156561
+%define snapshot r1172362
 %define srcname networkmanager-0.7
 
 Name:           kde-solid-networkmanager
@@ -8,8 +8,8 @@ Release:        %mkrel 0.%{snapshot}.1
 Group:          System/Configuration/Networking
 License:        GPLv2+
 URL:            http://www.kde.org
-#svn co svn://anonsvn.kde.org/home/kde/branches/KDE/4.5/kdebase/workspace/solid/networkmanager-0.7
-Source0:        %{srcname}.%{snapshot}.tar.xz
+#svn co svn://anonsvn.kde.org/home/kde/branches/KDE/trunk/kdebase/workspace/solid/networkmanager-0.7
+Source0:        %{srcname}.%{snapshot}.tar.bz2
 # Make it build stand-alone (by Adam Pigg)
 Patch0:         kde-solid-networkmanager-cmake.patch
 BuildRequires:  libnm-util-devel
