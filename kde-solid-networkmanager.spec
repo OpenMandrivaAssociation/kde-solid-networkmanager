@@ -8,7 +8,7 @@ Release:        %mkrel 0.%{snapshot}.1
 Group:          System/Configuration/Networking
 License:        GPLv2+
 URL:            http://www.kde.org
-#svn co svn://anonsvn.kde.org/home/kde/branches/KDE/trunk/kdebase/workspace/solid/networkmanager-0.7
+#svn export svn://anonsvn.kde.org/home/kde/trunk/KDE/kdebase/workspace/solid/networkmanager-0.7
 Source0:        %{srcname}.%{snapshot}.tar.bz2
 # Make it build stand-alone (by Adam Pigg)
 Patch0:         kde-solid-networkmanager-cmake.patch
