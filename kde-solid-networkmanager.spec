@@ -7,7 +7,7 @@ Version:        4.5
 Release:        %mkrel 0.%{snapshot}.1
 Group:          System/Configuration/Networking
 License:        GPLv2+
-URL:            http://www.kde.org
+URL:            https://www.kde.org
 #svn export -r %{snapshot} svn://anonsvn.kde.org/home/kde/trunk/KDE/kdebase/workspace/solid/networkmanager-0.7
 Source0:        %{srcname}.%{snapshot}.tar.bz2
 # Make it build stand-alone (by Adam Pigg)
