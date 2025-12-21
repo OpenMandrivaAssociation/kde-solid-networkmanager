@@ -12,6 +12,7 @@ URL:            https://www.kde.org
 Source0:        %{srcname}.%{snapshot}.tar.bz2
 # Make it build stand-alone (by Adam Pigg)
 Patch0:         kde-solid-networkmanager-cmake.patch
+BuildRequires:	make
 BuildRequires:  libnm-util-devel
 BuildRequires:  kdebase4-workspace-devel
 Requires:       networkmanager
