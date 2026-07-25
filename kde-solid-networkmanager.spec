@@ -4,7 +4,7 @@
 Name:           kde-solid-networkmanager
 Summary:        KDE Solid back-end for NetworkManager 0.7
 Version:        4.5
-Release:        %mkrel 0.%{snapshot}.1
+Release:        0.%{snapshot}.2
 Group:          System/Configuration/Networking
 License:        GPLv2+
 URL:            https://www.kde.org
